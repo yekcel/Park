@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'Yekan';
+    src:  url('../fonts/YekanWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYNfix';
+    src:  url('../fonts/BYNfix.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family:Yekan, BYNfix,sans-serif;
+    font-size:14px;
+    line-height:1.6;
+    color:#636b6f
+}
+table.teacherInfo tr th{
+    border-radius: 4px;
+    color: #fff;
+    background-color: #337ab7;
+    /*display: block;*/
+    max-width: 80px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 4px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+table.teacherInfo tr th,table.teacherInfo tr td{
+    width: 16.6% !important;
+}
+
+
